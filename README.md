@@ -1,3 +1,13 @@
 # websa-dns-api
-https://websa.advancedhosters.com
-dns api with hook's for certbot
+Предоставляет возможность выпуска бесплатных сертификатов let's encrypt с помощью DNS аутентификации
+в сервисе - https://websa.advancedhosters.com
+
+Необходимо сгенерировать ключ api в панели сервиса и добавить его в конфигурационный файл settings.ini
+После чего можно выпустить сертификат для списка доменов указанных в domain-list.conf
+Каждый новый домен добавлять с новой строки.
+
+Использование:
+
+git clone https://github.com/6ak5/websa-dns-api
+cd websa-dns-api
+./certbot_dns.py

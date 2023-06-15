@@ -13,9 +13,9 @@ sudo apt install python3
 sudo apt install certbot
 
 git clone https://github.com/6ak5/websa-dns-api
-
 cd websa-dns-api
-
 ./certbot_dns.py
+
+Если dry-run проходит успешно то достаточно поставить # перед строкой --dry-run для начала выпуска сертификатов.
 
 created by ah_puf

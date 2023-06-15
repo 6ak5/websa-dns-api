@@ -23,5 +23,6 @@ with open(r"domain-list.conf", "r") as file:
             "--renew-by-default",
             "--manual-public-ip-logging-ok",
             "certonly",
-            "--dry-run"])
+            "--dry-run"
+            ])
 

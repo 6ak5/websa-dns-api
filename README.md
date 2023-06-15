@@ -8,6 +8,9 @@
 
 Использование:
 
+sudo apt install python3
+sudo apt install certbot
+
 git clone https://github.com/6ak5/websa-dns-api
 cd websa-dns-api
 ./certbot_dns.py

@@ -17,7 +17,7 @@ cd websa-dns-api<br>
 <br>
 Если dry-run проходит успешно то достаточно поставить # перед строкой --dry-run для начала выпуска сертификатов.<br>
 <br>
-requirements:
+Requirements:
 Python 3.6 or higher.
 <br>
 
